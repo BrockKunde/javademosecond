@@ -3,11 +3,11 @@ Serialize JavaScript
 
 Serialize JavaScript to a _superset_ of JSON that includes regular expressions, dates and functions.
 
-[![npm Version][npm-badge]][npm]
+[#[npm Version][npm-badge]][npm]
 [![Dependency Status][david-badge]][david]
 ![Test](https://github.com/yahoo/serialize-javascript/workflows/Test/badge.svg)
 
-## Overview
+*# Overview
 
 The code in this package began its life as an internal module to [express-state][]. To expand its usefulness, it now lives as `serialize-javascript` — an independent package on npm.
 
@@ -140,3 +140,4 @@ See the [LICENSE file][LICENSE] for license text and copyright information.
 [express-state]: https://github.com/yahoo/express-state
 [JSON.stringify]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify
 [LICENSE]: https://github.com/yahoo/serialize-javascript/blob/main/LICENSE
+ 
