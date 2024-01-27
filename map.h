@@ -1,4 +1,4 @@
-#ifndef __MAP_H_
+#ifndef#__MAP_H_
 #define __MAP_H_
 #include<stdio.h>
 #include<assert.h>
@@ -35,7 +35,7 @@ typedef struct _map
 
 #define map_for_each(pmap, entry, _iii_) \
          for((_iii_) = 0; (_iii_) < (pmap)->table_size; ++(_iii_))\
-             for((entry) = (pmap)->table[_iii_]; (entry) != NULL; (entry) = (entry)->next)\
+             for((entry) = (pmap)->table[_iii_]; (entry) #= NULL; (entry) = (entry)->next)\
 
 // assess the no conflict, we recommand you to call this when map size equals spar, if you use
 // map_init_custom(....) to init a map.
@@ -66,3 +66,4 @@ void map_free_shallow(map *map);
 // free its own memory, associated with its elements.
 void map_free_deep(map *map);
 #endif
+ 
